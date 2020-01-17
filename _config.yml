@@ -1,0 +1,14 @@
+# Site settings
+title: ✝ Goner Gang ✝
+email: promo@gongergang.com
+description: > # this means to ignore newlines until "baseurl:"
+  ✝✝✝ GANG ONLY ✝✝✝
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://gonergang.com" # the base hostname & protocol for your site
+twitter_username: notGoner
+soundcloud: officialgoner
+instagram: goner
+
+# Build settings
+markdown: kramdown
+permalink: pretty
