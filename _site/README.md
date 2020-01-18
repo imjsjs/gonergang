@@ -1,5 +1,4 @@
-# urban-theme
+# goner-theme
 
-This theme is a Jekyll port of http://erosie.net/ with some modifications. It is designed for visual artists.
-
-Live-Demo: http://narkotyk.net/
+By Jake Plus
+http://JakePlus.com
