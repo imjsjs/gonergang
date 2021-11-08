@@ -209,3 +209,17 @@ pre {
 .p20 {
     padding: 2rem;
 }
+
+.w100 {
+    width: 100%;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fix-height {
+    height: auto;
+    object-fit: cover;
+}
