@@ -4,7 +4,10 @@ title: merch
 permalink: /merch/
 ---
 
-![merch1](/img/merch1.jpg)
+<div class="flex w100">
+  <img class="col-md-6 fix-height" src="/img/merch1-1.jpg">
+  <img class="col-md-6 fix-height" src="/img/merch1-2.jpg">
+</div>
 
 <div id="container-product1" class="bg-white p20">
   <h2>'Heaven' Tee</h2>
