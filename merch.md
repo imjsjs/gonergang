@@ -3,6 +3,11 @@ layout: page
 title: merch
 permalink: /merch/
 ---
+<!-- TODO: Stop sale after set date -->
+{% assign day = page.date | date: "%-d"  %}
+{{day}}
+{% assign sale_active = true %}
+{% if sale_active %}<h2 style="color:darkred; text-align: center; font-weight: bold;">BLACK FRIDAY SALE UNTIL 11/29</h2>{% endif %}
 
 <div class="flex w100">
   <img class="col-md-6 fix-height" src="/img/merch1-1.jpg">
@@ -10,8 +15,8 @@ permalink: /merch/
 </div>
 
 <div id="container-product1" class="bg-white p20">
-  <h2>'Heaven' Tee</h2>
-  <h2 class="mb0">$35<small>USD</small></h2>
+  <h2>'Heaven' Tee{% if sale_active %} <span style="color: darkred;">BLACK FRIDAY SALE</span>{% endif %}</h2>
+  <h2 class="mb0">{% if sale_active %}<span style="text-decoration: line-through;">$35</span> $25{% else %}$35{% endif %}<small>USD</small></h2>
   <h4>+ $10 shipping</h4>
   <p>Orders begin shipping early December</p>
   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -36,8 +41,8 @@ permalink: /merch/
 </div>
 
 <div id="container-product2" class="bg-white p20">
-  <h2>'Heaven' Hoodie</h2>
-  <h2 class="mb0">$55<small>USD</small></h2>
+  <h2>'Heaven' Hoodie{% if sale_active %} <span style="color: darkred;">BLACK FRIDAY SALE</span>{% endif %}</h2>
+  <h2 class="mb0">{% if sale_active %}<span style="text-decoration: line-through;">$55</span> $35{% else %}$55{% endif %}<small>USD</small></h2>
   <h4>+ $10 shipping</h4>
   <p>Orders begin shipping early December</p>
   <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
