@@ -7,7 +7,7 @@ permalink: /merch/
 {% assign day = page.date | date: "%-d"  %}
 {{day}}
 {% assign sale_active = true %}
-{% if sale_active %}<h2 style="color:darkred; text-align: center; font-weight: bold;">BLACK FRIDAY SALE UNTIL 11/29</h2>{% endif %}
+{% if sale_active %}<h2 style="color:darkred; text-align: center; font-weight: bold;">BLACK FRIDAY SALE UNTIL DEC 3RD</h2>{% endif %}
 
 <div class="flex w100">
   <img class="col-md-6 fix-height" src="/img/merch1-1.jpg">
