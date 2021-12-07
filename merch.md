@@ -6,7 +6,7 @@ permalink: /merch/
 <!-- TODO: Stop sale after set date -->
 {% assign day = page.date | date: "%-d"  %}
 {{day}}
-{% assign sale_active = true %}
+{% assign sale_active = false %}
 {% if sale_active %}<h2 style="color:darkred; text-align: center; font-weight: bold;">BLACK FRIDAY SALE UNTIL DEC 3RD</h2>{% endif %}
 
 <div class="flex w100">
